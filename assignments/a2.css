@@ -1,0 +1,5 @@
+span{
+    border-color: blue;
+    display: block; /* Change to block for margin auto centering */
+    margin-left: 800px;
+}
