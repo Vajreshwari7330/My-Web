@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blanchedalmond;
+    font-size: 30px;
+}
+img{
+    width: 120px;
+    float: left;
+    display:block;
+    margin: 10px;
+    
+}
+p{
+    display:block;
+    margin: 10px;
+}
+h3{
+    text-align: left;
+}
+a{
+    color: brown;
+}
+a:visited{
+    color:tomato;
+}
+a:hover{
+    color:olivedrab;
+    font-size: 50px;
+} 
+a:active{
+    color: greenyellow;
+}
+div{
+    list-style-position: inside;
+    text-align: left;
+    display: block;
+    float: left;
+    
+    content: left;
+    position: static;
+    float: unset;
+}
+.a1{
+    color: orangered;
+}
