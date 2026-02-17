@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table{
+    width: 1000px;
+    margin:auto;
+    text-align: center;
+    margin-top: 200px;
+}
+table,th,td{
+    border: 1px solid white;
+    border-collapse:collapse;
+    padding: 10px;
+    text-align: center;
+}
+img{
+    width: 40px;
+}
+thead{
+    background-color: aqua;
+    color: aliceblue;
+}
+tbody{
+    background-color:mintcream;
+}
