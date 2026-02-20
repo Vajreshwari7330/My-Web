@@ -3,3 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+form{
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    border: 2px solid rgb(1, 121, 59);
+    background-color: #c3e4c4;
+    padding: 20px;
+}
+input,select,textarea{
+    width: 100%;
+    font-size: 1rem;
+    padding: 5px 10px;
+}
+.space{
+    margin-bottom: 15px;
+}
+label{
+    font-size: 1.2rem;
+}
+input[type ="checkbox"], input[type ="radio"]{
+    width: 20px;
+}
+button{
+    display: block;
+    margin: auto;
+    font-size: 1.2rem;
+    background-color: #99d0a4;
+    color: black;
+}
+
