@@ -25,6 +25,8 @@ ul{
     list-style-position: inside;
     text-align: center;
     direction:ltr;
+    justify-content: center;
+    
     
 }
 ul li{

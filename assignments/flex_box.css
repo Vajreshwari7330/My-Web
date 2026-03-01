@@ -3,93 +3,65 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 nav{
+    display: flex;
+    justify-content: space-between;
     background-color: black;
-    justify-content: space-evenly;
+    color: goldenrod;
+    padding: 15px 20px;
 }
-.img1{
-    width: 30px;
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+nav img{
+    width: 50px;
+}
+nav li{
+    display: flex;
 }
 header{
-    /* background-image: linear-gradient(rgb(53, 52, 52)); */
-    background-position: center;
-    display: block;
-    float: center;
-    background-color: rgb(48, 47, 47);
-    text-align: center;
+    background-color: gray;
+    background-image: url("../asserts/images.jpg");
+    padding: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+header .content{
     color: goldenrod;
-    background-size: cover;
+    text-align: left;
 }
-.img2{
-    display: block;
-    width: 40px;
-    float: left;
-}
-p{
-    display: block;
+main{
+    justify-content: flex-start;
+    align-items: flex-start;
     text-align: center;
+    min-height: 100vh;
+    padding: 50px;
 }
-a{
-    color: goldenrod;
-    float: right;
-    justify-content: space-evenly;
+main img{
+    width: 50%;
 }
-.container1{
-    max-width: 1200px;
-    border: 1px solid white;
-    height: 300px;
-    margin: auto;
-    margin-top: 60px;
+main .container1{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: 0px;
-    justify-content: space-evenly;
-    
 }
-.container2{
-    max-width: 1200px;
-    border: 1px solid white;
-    height: 300px;
-    margin: auto;
-    margin-top: 60px;
+main .container2{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: 0px;
-    justify-content: space-evenly;
-    text-align: center;
-
 }
-.child{
-    width: 200px;
-    height: 400px;
-    
-    
-}
-.child1{
-    text-align: center;
-}
-.child2{
-    text-align: center;
-}
-.child3{
-    text-align: center;
-}
-img{
-    width: 200px;
-}
-button{
-    background-color: #eaea1b;
-    border-color: white;
-    color:white;
+main button{
+    background-color: yellow;
 }
 footer{
     background-color: grey;
+    color: white;
+    display: flex;
+    list-style-type: none;
+    padding: 5px;
+    justify-content: space-between;
 }
-
+footer ul{
+    list-style-type: none;
+}
