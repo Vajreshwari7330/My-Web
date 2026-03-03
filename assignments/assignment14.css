@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+   text-align: center;
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO9N6t8sJdqOYkCxiq9i1fHbgh1vgQg800Xg&s");
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 100px;
+   color: white;
+
+}
+header button{
+    background-color: goldenrod;
+    border: none;
+}
+main .container1{
+    display: flex;
+    padding: 30px;
+}
+main .container2{
+    display: flex;
+    padding: 30px;
+}
+main .container2 .para2 .img{
+    width: 70%;
+}
+main .container2 .img{
+    width: 10px;
+}
+main .container3{
+    text-align: center;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    
+}
+main h2{
+    color: rgb(50, 50, 160);
+}
+main ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
