@@ -1,32 +1,36 @@
 //Synchronous
-// console.log("Customers enter into the restaurant.");
-// console.log("Customer1 orders Pizza");
-// for(let x=0;x<=5000;x++){
-//     console.log("Customer1 recieves Pizza")
-// }
-// console.log("Customer2 orders Ice Cream");
-// for(let x=0;x<=2000;x++){
-//     console.log("Customer1 recieves Ice Cream")
-// }
-// console.log("Customer1 orders Biryani");
-// for(let x=0;x<=7000;x++){
-//     console.log("Customer1 recieves Biryani")
-// }
+console.log("To eat Breakfast."); 
+    console.log("Complete Breakfast")
+
+console.log("Talk to Friend");
+console.log("Friend is busy so wait..")
+for(let x=0;x<=2000;x++){
+    console.log("Completes talking to friend")
+}
+console.log("Write an email")
+console.log("Completes writting an email")
+console.log("Meet manager");
+console.log("MAnager is busy so wait..")
+for(let x=0;x<=7000;x++){
+    console.log("Complete meeting with manager")
+}
+console.log("fix a bug")
 
 
 //Asynchronous
-console.log("Customers enter into the restaurant.");
-console.log("Customer1 orders Pizza");
+console.log("To eat breakfast")
+console.log("Completes eating breakfast")
+console.log("Talk to a friend")
+console.log("Friend is busy talks after 5 sec")
 setTimeout(() => {
-    console.log("Customer1 receives Pizza")
+    console.log("Completes talking to a friend")
 }, 5000);
-console.log("Customer2 orders Ice Cream");
+console.log("Write an email")
+console.log("Complete writing an email")
+console.log("Meet manager")
+console.log("Manager is busy meets after 7 sec")
 setTimeout(() => {
-    console.log("Customer2 receives Ice Cream")
-}, 2000);
-console.log("Customer3 orders Biryani");
-setTimeout(() => {
-    console.log("Customer3 recieves Briyani")
+    console.log("Meeting completed with manager")
 }, 7000);
-
-
+console.log("fix a bug")
+console.log("Completed fixing of bug")
